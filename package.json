@@ -2,13 +2,15 @@
   "name": "pdf-text-extractor",
   "private": true,
   "scripts": {
-    "start": "node index.mjs",
+    "start": "node row.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@azure/core-auth": "^1.9.0",
+    "clipboardy": "^4.0.0",
     "openai": "^4.72.0",
     "pdf-parse": "^1.1.1",
-    "pdf2json": "^3.1.4"
+    "pdf2json": "^3.1.4",
+    "pdf2table": "^0.0.2"
   }
 }
